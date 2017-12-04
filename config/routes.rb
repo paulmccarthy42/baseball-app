@@ -5,5 +5,7 @@ Rails.application.routes.draw do
 
     get "teams" => "teams#index"
     get "teams/:id" => "teams#show"
+
+    get "games" => "games#index"
   end
 end
